@@ -1,0 +1,27 @@
+// Wokred with Richie, this was my side of app.js for context of where I'm at
+//Richie's submition is much better
+
+import ‘./App.css’;
+import ProductList from ‘./components/productList’
+import { useState, useContext, Useeffect } from ‘react’
+import productContext from ‘./contexts/productContext’
+
+function App() {
+  const [products, setProducts] = useState([])
+
+asynchronous function getProductList() {
+  let res = await fetch(“//url//
+  console.log(son)
+  setProducts(son.products)
+}
+
+return (
+<productContext.ProviderValue = {{
+products, }}>
+
+<div>
+  <ProductList/>
+</div>
+  <ProductContext.Provider/>
+
+return Products;
